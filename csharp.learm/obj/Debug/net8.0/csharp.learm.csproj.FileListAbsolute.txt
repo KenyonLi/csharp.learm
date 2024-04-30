@@ -1,0 +1,14 @@
+D:\GitRepos\KenyonLi.EFCore.Leam\csharp.learm\csharp.learm\bin\Debug\net8.0\csharp.learm.exe
+D:\GitRepos\KenyonLi.EFCore.Leam\csharp.learm\csharp.learm\bin\Debug\net8.0\csharp.learm.deps.json
+D:\GitRepos\KenyonLi.EFCore.Leam\csharp.learm\csharp.learm\bin\Debug\net8.0\csharp.learm.runtimeconfig.json
+D:\GitRepos\KenyonLi.EFCore.Leam\csharp.learm\csharp.learm\bin\Debug\net8.0\csharp.learm.dll
+D:\GitRepos\KenyonLi.EFCore.Leam\csharp.learm\csharp.learm\bin\Debug\net8.0\csharp.learm.pdb
+D:\GitRepos\KenyonLi.EFCore.Leam\csharp.learm\csharp.learm\obj\Debug\net8.0\csharp.learm.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitRepos\KenyonLi.EFCore.Leam\csharp.learm\csharp.learm\obj\Debug\net8.0\csharp.learm.AssemblyInfoInputs.cache
+D:\GitRepos\KenyonLi.EFCore.Leam\csharp.learm\csharp.learm\obj\Debug\net8.0\csharp.learm.AssemblyInfo.cs
+D:\GitRepos\KenyonLi.EFCore.Leam\csharp.learm\csharp.learm\obj\Debug\net8.0\csharp.learm.csproj.CoreCompileInputs.cache
+D:\GitRepos\KenyonLi.EFCore.Leam\csharp.learm\csharp.learm\obj\Debug\net8.0\csharp.learm.dll
+D:\GitRepos\KenyonLi.EFCore.Leam\csharp.learm\csharp.learm\obj\Debug\net8.0\refint\csharp.learm.dll
+D:\GitRepos\KenyonLi.EFCore.Leam\csharp.learm\csharp.learm\obj\Debug\net8.0\csharp.learm.pdb
+D:\GitRepos\KenyonLi.EFCore.Leam\csharp.learm\csharp.learm\obj\Debug\net8.0\csharp.learm.genruntimeconfig.cache
+D:\GitRepos\KenyonLi.EFCore.Leam\csharp.learm\csharp.learm\obj\Debug\net8.0\ref\csharp.learm.dll
