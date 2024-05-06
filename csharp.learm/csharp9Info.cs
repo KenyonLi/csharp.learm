@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -136,8 +137,121 @@ namespace csharp.learm
                 //只有一行代码执行所有操作。 借助顶级语句，可使用 using 指令和执行操作的一行替换所有样本：
             }
             #endregion
+            #region 模式匹配增强功能
+            {
+                //C# 9 包括新的模式匹配改进： 
+                //类型模式 与对象匹配特定类型
+                //带圆括号的模式强制或强调模式组合的优先级
+                //联合 and 模式要求两个模式都匹配
+                //析取 or 模式要求任一模式匹配
+                //否定 not 模式要求模式不匹配
+                //关系模式要求输入小于、大于、小于等于或大于等于给定常数。
 
+                bool bResult = Extension.IsLetter('1');
+                bool bResult1 = Extension.IsLetterOrSeparator('C');
+
+                string? e = null;
+                if (e is not null)
+                {
+                    // ...
+                }
+
+            }
+            #endregion
+
+
+            #region 调整和完成功能
+            //还有其他很多功能有助于更高效地编写代码。 在 C# 9.0 中，已知创建对象的类型时，可在 new 表达式中省略该类型。 最常见的用法是在字段声明中：
+            {
+                List<WeatherObservation> _observations = new();
+                WeatherStation station = new() { Location = "Seattle, WA" };
+                station.ForecastFor(DateTime.Now.AddDays(2), new());
+            }
+            #endregion
+
+            #region 静态匿名函数 
+            {
+                Func<int, bool> func = static i => { return true; };
+                func.Invoke(123);
+            }
+            #endregion
+
+
+            #region 扩展 GetEnumerator 支持 foreach 循环。
+            {
+                Person[] PersonList = new Person[3]
+                {
+                    new ("John", "Smith"),
+                    new ("Jim", "Johnson"),
+                    new ("Sue", "Rabon"),
+                };
+                People people = new People(PersonList);
+                foreach (var perso in people)
+                {
+                    Console.WriteLine(perso);
+                }
+            }
+            #endregion
+
+            #region Lambda 弃元参数
+            {
+                // C# 9 之前
+                Func<int, int, int> zero = (a, b) => 0;
+                Func<int, int, int> func = delegate (int a, int b) { return 0; };
+
+                // C# 9
+                Func<int, int, int> zero1 = (_, _) => 0;
+                Func<int, int, int> func2 = delegate (int _, int _) { return 0; };
+            }
+            #endregion
+
+            #region MyRegion
+            {
+                string mark = "line";
+                string?[] lines = new string[5] { "line1", "line2", "line3", "line4", null };
+                foreach (var line in lines)
+                {
+                    if (IsValid(line))
+                    {
+                        // Processing logic...
+                    }
+                    ShowConsole(line);
+                }
+
+
+
+
+                bool IsValid([NotNullWhen(true)] string? line)
+                {
+                    return !string.IsNullOrEmpty(line) && line.Length >= mark.Length;
+                }
+
+                [CusotmAttribute]
+                bool ShowConsole([CusotmAttribute] string? line)
+                {
+                    return !string.IsNullOrEmpty(line) && line.Length >= mark.Length;
+                }
+
+            }
+            #endregion
+
+
+            #region 扩展分部方法
+            {
+                User user = new User();
+                user.Show("123456");
+
+            }
+            #endregion 
         }
         public record ApiResponse<T>(T Data, bool IsSuccess, string Message);
     }
+}
+public static class Extension
+{
+    public static bool IsLetter(this char c) => c is >= 'a' and <= 'z' or >= 'A' and <= 'Z';
+
+    public static bool IsLetterOrSeparator(this char c) => c is (>= 'a' and <= 'z') or (>= 'A' and <= 'Z') or '.' or ',';
+
+
 }
