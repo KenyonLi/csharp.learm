@@ -7,6 +7,10 @@ using csharp.learm.csharp6;
 
 Console.WriteLine("kenyonli 学习 C# 语法特性");
 
-csharp6 _csharp6 = new csharp6();
-_csharp6.Test();
+//csharp6 _csharp6 = new csharp6();
+//_csharp6.Show();
+
+csharp7 _csharp7 = new csharp7();
+_csharp7.Show();
+
 Console.ReadLine();

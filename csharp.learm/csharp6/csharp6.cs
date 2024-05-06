@@ -3,6 +3,7 @@ using static csharp.learm.csharp6.Color;
 //using 取别名
 using csharp6 = csharp.learm.csharp6;
 using csharp6GenericInt = csharp.learm.csharp6.GenericClass<int>;
+using Csharp6GenerichString = csharp.learm.csharp6.GenericClass<string>;
 namespace csharp.learm.csharp6
 {
     /// <summary>
@@ -19,7 +20,7 @@ namespace csharp.learm.csharp6
          * 6. nameof运算符
         */
 
-        public void Test()
+        public void Show()
         {
             {
                 //静态引入  
@@ -33,7 +34,43 @@ namespace csharp.learm.csharp6
             {
                 csharp6GenericInt genericIntClass = new csharp6GenericInt();
                 genericIntClass.Show(555);
+
+                Csharp6GenerichString genericString = new Csharp6GenerichString();
+                genericString.Show("kenyonli");
             }
+
+            { //异常过滤
+                try
+                {
+                    StudentService.ShowExceptionType();
+                }
+                catch (Exception ex) when (ex.Message.Contains("002"))
+                {
+
+                    Console.WriteLine("这里是处理捕捉到的002筛选。。");
+                }
+            }
+
+            {//自动属性初始化表达式
+                //取默认值
+                Console.WriteLine(Id);
+            }
+            { //null 条件运算符 ?. 
+                UserInfo user = new UserInfo();
+                string? userName = user?.Name;
+                if (userName == null)
+                {
+                    Console.WriteLine($"user?.Name:{userName}");
+                }
+
+                UserInfo? user1 = null;
+                string? userName1 = user1?.Name;
+                if (userName1 == null)
+                {
+                    Console.WriteLine($"user1?.Name:{userName1}");
+                }
+            }
+
         }
     }
 }

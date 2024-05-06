@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitRepos\\KenyonLi.EFCore.Leam\\csharp.learm\\csharp.learm\\csharp.learm.csproj",
+      "projectUniqueName": "D:\\GitRepos\\csharp.learm\\csharp.learm\\csharp.learm.csproj",
       "projectName": "csharp.learm",
-      "projectPath": "D:\\GitRepos\\KenyonLi.EFCore.Leam\\csharp.learm\\csharp.learm\\csharp.learm.csproj",
+      "projectPath": "D:\\GitRepos\\csharp.learm\\csharp.learm\\csharp.learm.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\GitRepos\\KenyonLi.EFCore.Leam\\csharp.learm\\csharp.learm\\obj\\",
+      "outputPath": "D:\\GitRepos\\csharp.learm\\csharp.learm\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -18,7 +18,7 @@ namespace csharp.learm.csharp6
         public static void ShowExceptionType()
         {
             Console.WriteLine("开始抛异常。。。");
-            throw new Exception("001");
+            //throw new Exception("001");
             throw new Exception("002");
         }
     }
