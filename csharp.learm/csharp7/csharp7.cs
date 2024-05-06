@@ -113,6 +113,14 @@ namespace csharp.learm.csharp7
 
             }
 
+            {
+                //类型测试
+                int intResult = MidPoint(new List<int> { 123, 234, 444 });
+                List<int> para = null;
+                int nullResult = MidPoint(para);
+
+            }
+
             { //命令参数
 
                 QueryCityDataForYears(year1: 2022, year2: 2021, name: "Richard");
@@ -123,6 +131,81 @@ namespace csharp.learm.csharp7
                 }
             }
 
+            //Ref 局部变量和返回结果
+            {
+                int[] a = { 0, 1, 2, 3, 4, 5 };
+
+                // x不是一个引用，函数将值赋值给左侧变量x
+                int x = GetList(a);
+                Console.WriteLine("======================================================================");
+                Console.WriteLine($"x:{x}, a[2]:{a[a.Length - 1]}");
+                x = 99;
+                Console.WriteLine("======================================================================");
+                Console.WriteLine($"x:{x}, a[2]:{a[a.Length - 1]} \n");
+
+                // 返回引用，需要使用ref关键字，y是一个引用，指向a[a.Lenght-1]
+                ref int y = ref GetList(a);
+                Console.WriteLine("======================================================================");
+                Console.WriteLine($"y:{y}, a[2]:{a[a.Length - 1]}");
+                y = 100;
+                Console.WriteLine("======================================================================");
+                Console.WriteLine($"y:{y}, a[2]:{a[a.Length - 1]}");
+            }
+
+        }
+
+        public T MidPoint<T>(IEnumerable<T> data)
+        {
+            if (data is List<T> list)
+            {
+                Console.WriteLine($"{nameof(List<T>)}");
+                return list[list.Count / 2];
+            }
+            else
+            {
+                Console.WriteLine("not list");
+                return default(T);
+            }
+        }
+
+
+        public ref int GetList(int[] a)
+        {
+            if (a == null || a.Length < 1)
+            {
+                throw new Exception("数组为空");
+            }
+
+            int number = 18;
+            // 错误声明: 引用申明和初始化分开是错误的 
+            //ref int n1; 
+            //n1 = number;
+
+            //正确声明：申声明时必须初始化，声明和初始化在一起。
+            //添加关键词 ref 表示 n1 引用是一个引用
+            ref int n1 = ref number;
+            // n1 指向 number,不论修改 n1 和 number,对双方都有影响，相当于双方绑定了。
+            n1 = 19;
+
+            Console.WriteLine($"n1:{n1},number:{number}");
+
+            number = 20;
+            Console.WriteLine($"n1:{n1},number:{number}");
+
+            //语法正确，但本质是将a[2]的值赋值给n1引用所指，n1仍指向number,如果需要指向别的变量 需要在赋值号（=）之后加上ref
+            n1 = a[2];
+            Console.WriteLine($"n1:{n1},number:{number},a[a]={a[2]}");
+            number = 21;
+            Console.WriteLine($"n1:{n1},number:{number},a[a]={a[2]}");
+               
+            // --------------------- 引用返回 ------------------------ Cx j
+            // 错误：n1引用number，但number生存期限于方法内，故不可返回
+            // return ref n1;
+
+            // 正确：n2引用a[2]，a[2]生存期不仅仅限于方法内，所以可以返回。
+            ref int n2 = ref a[a.Length - 1];
+            return ref n2; // 需要ref返回一个引用
+            //return ref a[a.Length - 1];  // 也可以直接返回一个引用
         }
     }
 }

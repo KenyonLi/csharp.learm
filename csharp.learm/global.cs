@@ -5,3 +5,6 @@ global using System.Text;
 global using System.Threading.Tasks;
 
 global using csharp.learm.csharp7;
+
+global using csharp.learm.csharp8;
+global using csharp.learm.csharp9;
