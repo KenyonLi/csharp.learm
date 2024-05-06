@@ -15,6 +15,7 @@ csharp7 _csharp7 = new csharp7();
 _csharp7.Show();
 */
 //csharp8Info.Show();
-csharp9Info.Show();
+//csharp9Info.Show();
+csharp10Info.Show();
 
 Console.ReadLine();

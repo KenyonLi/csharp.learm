@@ -219,8 +219,6 @@ namespace csharp.learm
                 }
 
 
-
-
                 bool IsValid([NotNullWhen(true)] string? line)
                 {
                     return !string.IsNullOrEmpty(line) && line.Length >= mark.Length;
