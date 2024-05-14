@@ -1,5 +1,6 @@
 ﻿using csharp.learm.csharp10;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,11 +10,15 @@ namespace csharp.learm
 {
     public class csharp10Info
     {
+        public const string PolicyPrefix = "Permission:";
+
         public static void Show()
         {
 
             #region -记录结构-
             {
+                var policy = "Permission:user,comm";
+                var s = policy[PolicyPrefix.Length..].Split(",", StringSplitOptions.RemoveEmptyEntries);
 
                 PersonStruct personStruct = new PersonStruct
                 {
@@ -36,7 +41,10 @@ namespace csharp.learm
             }
             #endregion
 
-
+            List<string> list = new List<string>();
+            HashSet<string> ht = new HashSet<string>();
+            list.Add("dd");
+            ht.Add("dd");
         }
     }
 }
