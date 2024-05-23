@@ -1,0 +1,15 @@
+D:\GitRepos\csharp.learm\OrganizationTree\bin\Debug\net8.0\OrganizationTree.exe
+D:\GitRepos\csharp.learm\OrganizationTree\bin\Debug\net8.0\OrganizationTree.deps.json
+D:\GitRepos\csharp.learm\OrganizationTree\bin\Debug\net8.0\OrganizationTree.runtimeconfig.json
+D:\GitRepos\csharp.learm\OrganizationTree\bin\Debug\net8.0\OrganizationTree.dll
+D:\GitRepos\csharp.learm\OrganizationTree\bin\Debug\net8.0\OrganizationTree.pdb
+D:\GitRepos\csharp.learm\OrganizationTree\obj\Debug\net8.0\OrganizationTree.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitRepos\csharp.learm\OrganizationTree\obj\Debug\net8.0\OrganizationTree.AssemblyInfoInputs.cache
+D:\GitRepos\csharp.learm\OrganizationTree\obj\Debug\net8.0\OrganizationTree.AssemblyInfo.cs
+D:\GitRepos\csharp.learm\OrganizationTree\obj\Debug\net8.0\OrganizationTree.csproj.CoreCompileInputs.cache
+D:\GitRepos\csharp.learm\OrganizationTree\obj\Debug\net8.0\OrganizationTree.sourcelink.json
+D:\GitRepos\csharp.learm\OrganizationTree\obj\Debug\net8.0\OrganizationTree.dll
+D:\GitRepos\csharp.learm\OrganizationTree\obj\Debug\net8.0\refint\OrganizationTree.dll
+D:\GitRepos\csharp.learm\OrganizationTree\obj\Debug\net8.0\OrganizationTree.pdb
+D:\GitRepos\csharp.learm\OrganizationTree\obj\Debug\net8.0\OrganizationTree.genruntimeconfig.cache
+D:\GitRepos\csharp.learm\OrganizationTree\obj\Debug\net8.0\ref\OrganizationTree.dll

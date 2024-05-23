@@ -1,6 +1,5 @@
 ﻿using System.Runtime.InteropServices;
 
-Layout
 namespace csharp.learm
 {
     public class csharp8Info

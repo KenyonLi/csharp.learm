@@ -1,0 +1,15 @@
+D:\GitRepos\csharp.learm\orgTress\bin\Debug\net8.0\orgTress.exe
+D:\GitRepos\csharp.learm\orgTress\bin\Debug\net8.0\orgTress.deps.json
+D:\GitRepos\csharp.learm\orgTress\bin\Debug\net8.0\orgTress.runtimeconfig.json
+D:\GitRepos\csharp.learm\orgTress\bin\Debug\net8.0\orgTress.dll
+D:\GitRepos\csharp.learm\orgTress\bin\Debug\net8.0\orgTress.pdb
+D:\GitRepos\csharp.learm\orgTress\obj\Debug\net8.0\orgTress.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitRepos\csharp.learm\orgTress\obj\Debug\net8.0\orgTress.AssemblyInfoInputs.cache
+D:\GitRepos\csharp.learm\orgTress\obj\Debug\net8.0\orgTress.AssemblyInfo.cs
+D:\GitRepos\csharp.learm\orgTress\obj\Debug\net8.0\orgTress.csproj.CoreCompileInputs.cache
+D:\GitRepos\csharp.learm\orgTress\obj\Debug\net8.0\orgTress.sourcelink.json
+D:\GitRepos\csharp.learm\orgTress\obj\Debug\net8.0\orgTress.dll
+D:\GitRepos\csharp.learm\orgTress\obj\Debug\net8.0\refint\orgTress.dll
+D:\GitRepos\csharp.learm\orgTress\obj\Debug\net8.0\orgTress.pdb
+D:\GitRepos\csharp.learm\orgTress\obj\Debug\net8.0\orgTress.genruntimeconfig.cache
+D:\GitRepos\csharp.learm\orgTress\obj\Debug\net8.0\ref\orgTress.dll

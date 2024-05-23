@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Demo.Client", "Rab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Demo.Service", "RabbitMQ.Demo.Service\RabbitMQ.Demo.Service.csproj", "{E785BCE8-44FE-47AB-873B-B9ADB0730361}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "orgTress", "orgTress\orgTress.csproj", "{6A8B5D6E-5AE9-4780-9C92-CF65721B96DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E785BCE8-44FE-47AB-873B-B9ADB0730361}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E785BCE8-44FE-47AB-873B-B9ADB0730361}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E785BCE8-44FE-47AB-873B-B9ADB0730361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A8B5D6E-5AE9-4780-9C92-CF65721B96DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8B5D6E-5AE9-4780-9C92-CF65721B96DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8B5D6E-5AE9-4780-9C92-CF65721B96DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8B5D6E-5AE9-4780-9C92-CF65721B96DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
