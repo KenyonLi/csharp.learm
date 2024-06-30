@@ -1,0 +1,7 @@
+// Validating benchmarks:
+// Benchmark BenchmarkTest.As: Mono(Runtime=Mono)
+//    * Mono is not installed or added to PATH, benchmark 'BenchmarkTest.As: Mono(Runtime=Mono)' will not be executed
+
+// Benchmark BenchmarkTest.As: Mono(Runtime=Mono)
+//    * The Roslyn toolchain is only supported on .NET Framework
+

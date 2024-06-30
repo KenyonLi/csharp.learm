@@ -1,0 +1,15 @@
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\bin\Debug\net8.0\CovariantInversion.out-in.exe
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\bin\Debug\net8.0\CovariantInversion.out-in.deps.json
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\bin\Debug\net8.0\CovariantInversion.out-in.runtimeconfig.json
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\bin\Debug\net8.0\CovariantInversion.out-in.dll
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\bin\Debug\net8.0\CovariantInversion.out-in.pdb
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\obj\Debug\net8.0\CovariantInversion.out-in.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\obj\Debug\net8.0\CovariantInversion.out-in.AssemblyInfoInputs.cache
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\obj\Debug\net8.0\CovariantInversion.out-in.AssemblyInfo.cs
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\obj\Debug\net8.0\CovariantInversion.out-in.csproj.CoreCompileInputs.cache
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\obj\Debug\net8.0\CovariantInversion.out-in.sourcelink.json
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\obj\Debug\net8.0\CovariantInversion.out-in.dll
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\obj\Debug\net8.0\refint\CovariantInversion.out-in.dll
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\obj\Debug\net8.0\CovariantInversion.out-in.pdb
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\obj\Debug\net8.0\CovariantInversion.out-in.genruntimeconfig.cache
+D:\GitRepos\csharp.learm\CovariantInversion.out-in\obj\Debug\net8.0\ref\CovariantInversion.out-in.dll

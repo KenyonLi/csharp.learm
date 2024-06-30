@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("orgTress")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc505fa0642ba72631fd5c5d08529b279f1f1a89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("orgTress")]
 [assembly: System.Reflection.AssemblyTitleAttribute("orgTress")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

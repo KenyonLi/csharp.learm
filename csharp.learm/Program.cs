@@ -3,6 +3,7 @@
 
 
 // See https://aka.ms/new-console-template for more information
+using BenchmarkDotNet.Running;
 using csharp.learm;
 using csharp.learm.csharp6;
 
@@ -16,6 +17,8 @@ _csharp7.Show();
 */
 //csharp8Info.Show();
 //csharp9Info.Show();
-csharp10Info.Show();
+//csharp10Info.Show();
+
+BenchmarkRunner.Run<BenchmarkTest>();
 
 Console.ReadLine();
