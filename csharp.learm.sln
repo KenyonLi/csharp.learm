@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Demo.Service", "Ra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "orgTress", "orgTress\orgTress.csproj", "{6A8B5D6E-5AE9-4780-9C92-CF65721B96DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovariantInversion.out-in", "CovariantInversion.out-in\CovariantInversion.out-in.csproj", "{8E7713EC-BD8A-4153-8E27-27EE1D43BF03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovariantInversion.out-in", "CovariantInversion.out-in\CovariantInversion.out-in.csproj", "{8E7713EC-BD8A-4153-8E27-27EE1D43BF03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lifetime.Demo", "Lifetime.Demo\Lifetime.Demo.csproj", "{0E458151-BAAA-40FC-BBEB-3ECC7F6D43C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProfiler.Demo", "MiniProfiler.Demo\MiniProfiler.Demo.csproj", "{07F8F909-24D8-481C-86D0-D04CA6E87589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformancePressureTesting", "PerformancePressureTesting\PerformancePressureTesting.csproj", "{B1012271-6141-4BBF-AE95-BC84239CD1F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{8E7713EC-BD8A-4153-8E27-27EE1D43BF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E7713EC-BD8A-4153-8E27-27EE1D43BF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E7713EC-BD8A-4153-8E27-27EE1D43BF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E458151-BAAA-40FC-BBEB-3ECC7F6D43C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E458151-BAAA-40FC-BBEB-3ECC7F6D43C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E458151-BAAA-40FC-BBEB-3ECC7F6D43C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E458151-BAAA-40FC-BBEB-3ECC7F6D43C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F8F909-24D8-481C-86D0-D04CA6E87589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F8F909-24D8-481C-86D0-D04CA6E87589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F8F909-24D8-481C-86D0-D04CA6E87589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F8F909-24D8-481C-86D0-D04CA6E87589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1012271-6141-4BBF-AE95-BC84239CD1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1012271-6141-4BBF-AE95-BC84239CD1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1012271-6141-4BBF-AE95-BC84239CD1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1012271-6141-4BBF-AE95-BC84239CD1F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

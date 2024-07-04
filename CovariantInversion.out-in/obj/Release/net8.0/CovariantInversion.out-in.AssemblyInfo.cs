@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CovariantInversion.out-in")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d07c7daa61fc71fe1eb46536e6307b609f0d405")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CovariantInversion.out-in")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CovariantInversion.out-in")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

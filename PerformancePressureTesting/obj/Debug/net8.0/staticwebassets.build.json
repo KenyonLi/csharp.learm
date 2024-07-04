@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Z5sDeGqfuwWRE5SNlKnBE1fatji1G652wLHoLXIIgTw=",
+  "Source": "PerformancePressureTesting",
+  "BasePath": "_content/PerformancePressureTesting",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

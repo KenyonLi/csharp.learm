@@ -1,0 +1,11 @@
+D:\GitRepos\csharp.learm\PerformancePressureTesting\obj\Release\net8.0\PubTmp\Out\PerformancePressureTesting.exe
+D:\GitRepos\csharp.learm\PerformancePressureTesting\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\GitRepos\csharp.learm\PerformancePressureTesting\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\GitRepos\csharp.learm\PerformancePressureTesting\obj\Release\net8.0\PubTmp\Out\PerformancePressureTesting.dll
+D:\GitRepos\csharp.learm\PerformancePressureTesting\obj\Release\net8.0\PubTmp\Out\PerformancePressureTesting.deps.json
+D:\GitRepos\csharp.learm\PerformancePressureTesting\obj\Release\net8.0\PubTmp\Out\PerformancePressureTesting.runtimeconfig.json
+D:\GitRepos\csharp.learm\PerformancePressureTesting\obj\Release\net8.0\PubTmp\Out\PerformancePressureTesting.pdb
+D:\GitRepos\csharp.learm\PerformancePressureTesting\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\GitRepos\csharp.learm\PerformancePressureTesting\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\GitRepos\csharp.learm\PerformancePressureTesting\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\GitRepos\csharp.learm\PerformancePressureTesting\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
