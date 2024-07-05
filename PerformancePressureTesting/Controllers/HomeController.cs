@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using PerformancePressureTesting.ResourceMoniter;
 
 namespace PerformancePressureTesting.Controllers
 {
@@ -18,15 +18,18 @@ namespace PerformancePressureTesting.Controllers
         }
 
         [HttpGet("GetWeatherForecast")]
+        [ResourceMoniters]
         public IEnumerable<WeatherForecast> Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            var rt = Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
                 TemperatureC = Random.Shared.Next(-20, 55),
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
            .ToArray();
+            Thread.Sleep(1000);//休息一秒
+            return rt;
         }
     }
 }

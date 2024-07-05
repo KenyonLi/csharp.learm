@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PerformancePressureTesting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e485c784d788693e85747541c27acfcd80d44237")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bb5274f36765937d28eb65ed22477c43713e277")]
 [assembly: System.Reflection.AssemblyProductAttribute("PerformancePressureTesting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PerformancePressureTesting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
